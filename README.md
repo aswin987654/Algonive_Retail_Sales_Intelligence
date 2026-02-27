@@ -85,7 +85,8 @@ And quantifies improvement using:
 - Scikit-learn  
 - Streamlit  
 - Matplotlib  
-- Docker  
+- Docker
+- Docker Hub 
 
 ---
 
@@ -94,4 +95,5 @@ And quantifies improvement using:
 Pull the production release:
 
 ```bash
-docker pull aswinr7191/retail-forecast-app:v1.0.0
+docker pull aswinr7191/retail-forecast-app:v2.1.0
+docker run -p 8501:8501 aswinr7191/retail-forecast-app:v2.1.0
